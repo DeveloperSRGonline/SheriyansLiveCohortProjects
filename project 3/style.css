@@ -8,78 +8,58 @@ html,body{
     width: 100%;
 }
 h1{
+    font-weight: 900;
     text-align: center;
-    height: 70px;
-    display:flex ;
+    height: 50px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(153, 0, 255);
     color: #fff;
-    font-weight: 900;
-    font-size: 50px;
-}
-a{
-    text-decoration: none;
-    color: #484848;
 }
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    background-color: #dedede;
+    background-color: rgb(61, 102, 156);
     height: 30px;
-    font-size: 25px;
-}
-main{
-    position: relative;
-}
-
-#container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-#side{
-    width: 20%;
-    height: 82.7vh;
-    background-color: rgb(203, 203, 203);
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    font-size: 20px;
-}
-#side a{
-    color: #484848;
-}
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #484848;
+nav a{
+    text-decoration: none;
     color: #fff;
-    height: 6%;
 }
-#right{
+#Home{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgba(4, 104, 108, 0.321);
+}
+#About{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgba(4, 104, 108, 0.321);
+}
+img{
+    height: 300px;
+    width:  400px;
+    margin: 10px 0 10px 0;
+}
+#Contacts{
+    background-color: #111;
+    color: #fff;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-#content{
-    padding: 20px;
-    font-size: 20px;
-}
-#feature{
-    padding:  10px 40px  10px 40px;
-}
-#center {
+h2{
+    background-color: rgb(69, 191, 196);
+    color: blue;
+    height: 50px;
     display: flex;
-    gap: 10px;
-}
-#w{
-    font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
